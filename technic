@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technic - The Blocks World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      background-color: #000;
+      border-bottom: 2px solid #ccc;
+      padding: 20px 0;
+    }
+    .logo img {
+      width: 300px;
+      object-fit: contain;
+    }
+    nav {
+      background-color: #000;
+      padding: 10px 20px 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-bottom: 2px solid #ccc;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 8px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .product-list {
+      margin: 30px auto;
+      max-width: 900px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .product-card {
+      background: #111;
+      border: 1px solid #444;
+      padding: 10px;
+      width: 220px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .product-card:hover {
+      background: #222;
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .product-card .name {
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://iili.io/FWauN99.md.png" alt="The Blocks World Logo" />
+    </div>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="technic.html" style="text-decoration: underline;">Technic</a>
+    <!-- other nav links can be added here -->
+  </nav>
+
+  <div class="product-list">
+    <a href="ferrari.html" class="product-card">
+      <img src="https://www.lego.com/cdn/cs/set/assets/bltb862bc546852bd71/42143.png?format=webply&fit=bounds&quality=70&width=1200&height=1200&dpr=1.5" alt="Ferrari Daytona SP3" />
+      <div class="name">Ferrari Daytona SP3</div>
+    </a>
+    <!-- Add more products here as needed -->
+  </div>
+</body>
+</html>
